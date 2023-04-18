@@ -137,7 +137,7 @@
     </dmn:decisionTable>
   </dmn:decision>
   <dmn:textAnnotation id="_1FCCF431-5822-4300-877E-6255983DD427" textFormat="text/plain">
-    <dmn:text>Personalized message</dmn:text>
+    <dmn:text>Personalized message2</dmn:text>
   </dmn:textAnnotation>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_1A7E08DD-A2D5-4738-A29D-44E1C86407C6" name="DRG">
