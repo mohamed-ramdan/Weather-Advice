@@ -39,7 +39,7 @@
       <dmn:requiredInput href="#_8454E2FC-7037-4E01-8409-7D3648AC4938"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_14CF4FC8-353E-442B-863F-51457B41E10E">
-      <dmn:text>if Name = null then "Sorry, we don't have enough information to provide a response." else "Hello " + Name + "! " +WeatherAdvice</dmn:text>
+      <dmn:text>if Name = null then "Sorry, we don't have enough information to provide a response." else "Hello " + Name + "! " +WeatherAdvice + "  Take care!"</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_60B2F582-B89E-4F7F-81F2-902D2C8B4E79" name="WeatherAdvice">
@@ -144,7 +144,7 @@
       <di:extension>
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_14CF4FC8-353E-442B-863F-51457B41E10E">
-            <kie:width>967</kie:width>
+            <kie:width>1199</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_37D35401-A796-414F-8035-A88A5E288392">
             <kie:width>50</kie:width>
